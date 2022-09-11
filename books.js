@@ -1,5 +1,9 @@
 function renderBooks(){
   const booksWrapper = document.querySelector('.books');
+
+  const books = getBooks();
+
+
   booksWrapper.innerHTML = 
   `<div class="book">
     <figure class="book__img--wrapper">
