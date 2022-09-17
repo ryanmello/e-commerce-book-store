@@ -35,6 +35,8 @@ async function renderBooks(filter){
   booksWrapper.innerHTML = booksHtml;
 }
 
+// 46:00
+
 function priceHTML(originalPrice, salePrice) {
   if (!salePrice) {
     return `$${originalPrice.toFixed(2)}`;
@@ -61,7 +63,7 @@ function filterBooks(event){
 }
 
 setTimeout(() => {
-  renderBooks();
+  //renderBooks();
 });
 
 // FAKE DATA
